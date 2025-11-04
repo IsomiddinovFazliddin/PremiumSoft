@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="scroll-smooth" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,10 +21,10 @@
           </div>
           <div class="menu flex items-center gap-5 hidden md:flex">
             <ul class="flex-still justify-start">
-              <li><a href="">Biz haqimizda</a></li>
-              <li><a href="">Portfolio</a></li>
-              <li><a href="">Xizmatlar</a></li>
-              <li><a href="">Vakansiya</a></li>
+              <li><a href="#about">Biz haqimizda</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#services">Xizmatlar</a></li>
+              <li><a href="#vakansiya">Vakansiya</a></li>
               <li><a href="">Blog</a></li>
             </ul>
             <div class="darkMode flex gap-2 bg-[#6F849A] rounded-2xl p-0.5">
@@ -101,7 +101,7 @@
       </div>
     </header>
     <main>
-      <section
+      <section id="about"
         class="about bg-[url(/imgs/aboutBg.png)] bg-center bg-cover bg-no-repeat"
       >
         <div
@@ -213,7 +213,7 @@
           </div>
         </div>
       </section>
-      <section class="project">
+      <section class="project" id="portfolio">
         <div class="container mx-auto py-20 px-5 sm:px-0">
           <div class="info text-center justify-items-center">
             <h2>Bizning ustuvor loyihalarimiz</h2>
@@ -399,7 +399,7 @@
           </div>
         </div>
       </section>
-      <section class="services bg-[#F5F7FA]">
+      <section class="services bg-[#F5F7FA]" id="services">
         <div class="container mx-auto py-20 px-5 overflow-hidden">
           <h2 class="text-center mb-10">Bizning xizmatlar</h2>
           <div class="card flex-still relative">
@@ -512,7 +512,7 @@
       <section class="team">
         <div class="container mx-auto py-20 px-5 sm:px-0">
           <div class="info text-center justify-items-center">
-            <h2>Bizning ustuvor loyihalarimiz</h2>
+            <h2>Bizning jamoamiz</h2>
             <ul class="flex gap-8 mb-8 flex-wrap">
               <li
                 class="font-Inter font-semibold text-[18px] text-TextColor cursor-pointer transition-all duration-500 ease-in-out hover:text-[#7E57FF]"
@@ -537,7 +537,7 @@
             </ul>
           </div>
           <div
-            class="crad grid grid-cols-[repeat(auto-fit,minmax(285px,1fr))] gap-5 text-center"
+            class="crad grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-5 text-center"
           >
             <div class="box relative">
               <div
@@ -775,66 +775,291 @@
               </button>
             </div>
           </div>
-          <div class="card flex-still ">
-            <div class="box relative transition-all duration-500 ease-in-out cursor-pointer hover:translate-y-[-5px]">
-                <img src="./imgs/newsImg.png" alt="">
-                <div class="imgInfo absolute bottom-3 left-3">
-                    <h4 class="font-Inter font-medium tect-[16px] leading-[130%] text-MainColor mb-3">Xalqaro loyihalar ko‘rgazmasida yoshlarimiz ham ishtirok etdi.</h4>
-                    <div class="col flex gap-5">
-                        <h6 class="font-Inter font-medium text-[12px] leading-[100%] text-gray-400"><i class="fa-solid fa-calendar-days"></i> 05.08.2023 </h6>
-                        <h6 class="font-Inter font-medium text-[12px] leading-[100%] text-gray-400"><i class="fa-solid fa-eye"></i> 62 456</h6>
-                    </div>
+          <div class="card flex-still">
+            <div
+              class="box relative transition-all duration-500 ease-in-out cursor-pointer hover:translate-y-[-5px]"
+            >
+              <img src="./imgs/newsImg.png" alt="" />
+              <div class="imgInfo absolute bottom-3 left-3">
+                <h4
+                  class="font-Inter font-medium tect-[16px] leading-[130%] text-MainColor mb-3"
+                >
+                  Xalqaro loyihalar ko‘rgazmasida yoshlarimiz ham ishtirok etdi.
+                </h4>
+                <div class="col flex gap-5">
+                  <h6
+                    class="font-Inter font-medium text-[12px] leading-[100%] text-gray-400"
+                  >
+                    <i class="fa-solid fa-calendar-days"></i> 05.08.2023
+                  </h6>
+                  <h6
+                    class="font-Inter font-medium text-[12px] leading-[100%] text-gray-400"
+                  >
+                    <i class="fa-solid fa-eye"></i> 62 456
+                  </h6>
                 </div>
+              </div>
             </div>
-            <div class="box relative transition-all duration-500 ease-in-out cursor-pointer hover:translate-y-[-5px]">
-                <img src="./imgs/newsImg.png" alt="">
-                <div class="imgInfo absolute bottom-3 left-3">
-                    <h4 class="font-Inter font-medium tect-[16px] leading-[130%] text-MainColor mb-3">Xalqaro loyihalar ko‘rgazmasida yoshlarimiz ham ishtirok etdi.</h4>
-                    <div class="col flex gap-5">
-                        <h6 class="font-Inter font-medium text-[12px] leading-[100%] text-gray-400"><i class="fa-solid fa-calendar-days"></i> 05.08.2023 </h6>
-                        <h6 class="font-Inter font-medium text-[12px] leading-[100%] text-gray-400"><i class="fa-solid fa-eye"></i> 62 456</h6>
-                    </div>
+            <div
+              class="box relative transition-all duration-500 ease-in-out cursor-pointer hover:translate-y-[-5px]"
+            >
+              <img src="./imgs/newsImg.png" alt="" />
+              <div class="imgInfo absolute bottom-3 left-3">
+                <h4
+                  class="font-Inter font-medium tect-[16px] leading-[130%] text-MainColor mb-3"
+                >
+                  Xalqaro loyihalar ko‘rgazmasida yoshlarimiz ham ishtirok etdi.
+                </h4>
+                <div class="col flex gap-5">
+                  <h6
+                    class="font-Inter font-medium text-[12px] leading-[100%] text-gray-400"
+                  >
+                    <i class="fa-solid fa-calendar-days"></i> 05.08.2023
+                  </h6>
+                  <h6
+                    class="font-Inter font-medium text-[12px] leading-[100%] text-gray-400"
+                  >
+                    <i class="fa-solid fa-eye"></i> 62 456
+                  </h6>
                 </div>
+              </div>
             </div>
-            <div class="box relative transition-all duration-500 ease-in-out cursor-pointer hover:translate-y-[-5px]">
-                <img src="./imgs/newsImg.png" alt="">
-                <div class="imgInfo absolute bottom-3 left-3">
-                    <h4 class="font-Inter font-medium tect-[16px] leading-[130%] text-MainColor mb-3">Xalqaro loyihalar ko‘rgazmasida yoshlarimiz ham ishtirok etdi.</h4>
-                    <div class="col flex gap-5">
-                        <h6 class="font-Inter font-medium text-[12px] leading-[100%] text-gray-400"><i class="fa-solid fa-calendar-days"></i> 05.08.2023 </h6>
-                        <h6 class="font-Inter font-medium text-[12px] leading-[100%] text-gray-400"><i class="fa-solid fa-eye"></i> 62 456</h6>
-                    </div>
+            <div
+              class="box relative transition-all duration-500 ease-in-out cursor-pointer hover:translate-y-[-5px]"
+            >
+              <img src="./imgs/newsImg.png" alt="" />
+              <div class="imgInfo absolute bottom-3 left-3">
+                <h4
+                  class="font-Inter font-medium tect-[16px] leading-[130%] text-MainColor mb-3"
+                >
+                  Xalqaro loyihalar ko‘rgazmasida yoshlarimiz ham ishtirok etdi.
+                </h4>
+                <div class="col flex gap-5">
+                  <h6
+                    class="font-Inter font-medium text-[12px] leading-[100%] text-gray-400"
+                  >
+                    <i class="fa-solid fa-calendar-days"></i> 05.08.2023
+                  </h6>
+                  <h6
+                    class="font-Inter font-medium text-[12px] leading-[100%] text-gray-400"
+                  >
+                    <i class="fa-solid fa-eye"></i> 62 456
+                  </h6>
                 </div>
+              </div>
             </div>
-            <div class="box relative transition-all duration-500 ease-in-out cursor-pointer hover:translate-y-[-5px]">
-                <img src="./imgs/newsImg.png" alt="">
-                <div class="imgInfo absolute bottom-3 left-3">
-                    <h4 class="font-Inter font-medium tect-[16px] leading-[130%] text-MainColor mb-3">Xalqaro loyihalar ko‘rgazmasida yoshlarimiz ham ishtirok etdi.</h4>
-                    <div class="col flex gap-5">
-                        <h6 class="font-Inter font-medium text-[12px] leading-[100%] text-gray-400"><i class="fa-solid fa-calendar-days"></i> 05.08.2023 </h6>
-                        <h6 class="font-Inter font-medium text-[12px] leading-[100%] text-gray-400"><i class="fa-solid fa-eye"></i> 62 456</h6>
-                    </div>
+            <div
+              class="box relative transition-all duration-500 ease-in-out cursor-pointer hover:translate-y-[-5px]"
+            >
+              <img src="./imgs/newsImg.png" alt="" />
+              <div class="imgInfo absolute bottom-3 left-3">
+                <h4
+                  class="font-Inter font-medium tect-[16px] leading-[130%] text-MainColor mb-3"
+                >
+                  Xalqaro loyihalar ko‘rgazmasida yoshlarimiz ham ishtirok etdi.
+                </h4>
+                <div class="col flex gap-5">
+                  <h6
+                    class="font-Inter font-medium text-[12px] leading-[100%] text-gray-400"
+                  >
+                    <i class="fa-solid fa-calendar-days"></i> 05.08.2023
+                  </h6>
+                  <h6
+                    class="font-Inter font-medium text-[12px] leading-[100%] text-gray-400"
+                  >
+                    <i class="fa-solid fa-eye"></i> 62 456
+                  </h6>
                 </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="contact">
-        <div class="container">
-            <div class="info">
-                <h2>Sizda loyiha bormi, marhamat biz bilan bog‘laning!</h2>
-                <div class="col">
-                    <div class="flex gap-3 items-center">
-                        <i class="text-MainColor text-[22px] fa-solid fa-phone"></i>
-                        <div>
-                            <h4>Telefon</h4>
-                            <h5>+99873 244-05-35</h5>
-                        </div>
-                    </div>
+      <section class="contact bg-[#130C32]">
+        <div
+          class="container mx-auto flex-still items-end justify-center flex-col md:flex-row py-20 px-5 sm:px-0"
+        >
+          <div class="info w-full md:w-[50%]">
+            <h2
+              class="mb-8 text-MainColor font-semibold text-[24px] md:text-[40px]"
+            >
+              Sizda loyiha bormi, marhamat biz bilan bog‘laning!
+            </h2>
+            <div class="col">
+              <div class="flex gap-3 items-center mb-7">
+                <i
+                  class="text-MainColor text-[22px] cursor-pointer fa-solid fa-phone"
+                ></i>
+                <div>
+                  <h4
+                    class="font-Inter font-semibold text-[18px] leading-[100%] text-MainColor mb-2"
+                  >
+                    Telefon
+                  </h4>
+                  <h5
+                    class="font-Inter font-normal text-[16px] leading-[100%] text-[#BABED7]"
+                  >
+                    +99873 244-05-35
+                  </h5>
                 </div>
+              </div>
+              <div class="flex gap-3 items-center mb-7">
+                <i
+                  class="text-MainColor text-[22px] cursor-pointer fa-solid fa-envelope"
+                ></i>
+                <div>
+                  <h4
+                    class="font-Inter font-semibold text-[18px] leading-[100%] text-MainColor mb-2"
+                  >
+                    Telefon
+                  </h4>
+                  <h5
+                    class="font-Inter font-normal text-[16px] leading-[100%] text-[#BABED7]"
+                  >
+                    +99873 244-05-35
+                  </h5>
+                </div>
+              </div>
+              <div class="flex gap-3 items-center">
+                <i
+                  class="text-MainColor text-[22px] cursor-pointer fa-solid fa-location-dot"
+                ></i>
+                <div>
+                  <h4
+                    class="font-Inter font-semibold text-[18px] leading-[100%] text-MainColor mb-2"
+                  >
+                    Telefon
+                  </h4>
+                  <h5
+                    class="font-Inter font-normal text-[16px] leading-[100%] text-[#BABED7]"
+                  >
+                    +99873 244-05-35
+                  </h5>
+                </div>
+              </div>
             </div>
+            <div class="imgs mt-10">
+              <img src="./imgs/contactImg.png" alt="" />
+            </div>
+          </div>
+          <div
+            class="content w-full md:w-[30%] bg-MainColor rounded-[24px] p-5 shrink-0"
+          >
+            <h3
+              class="font-Inter font-semibold text-[24px] leading-[120%] text-TextColor text-center mb-10"
+            >
+              Siz bilan bog‘lanishimiz uchun ma’lumotlari kiriting!
+            </h3>
+            <form action="">
+              <div class="inputBtn grid mb-5">
+                <label
+                  class="mb-2 font-Inter font-semibold text-[15px] leading-[100%] text-TextColor"
+                  for=""
+                  >Ism</label
+                >
+                <input
+                  class="w-full font-Inter font-normal text-[15px] leading-[100%] text-TextColor border border-[#E1E0E4] outline-none rounded-[40px] px-5 py-3"
+                  type="text"
+                  placeholder="Ismingizni yozing"
+                />
+              </div>
+              <div class="inputBtn grid mb-5">
+                <label
+                  class="mb-2 font-Inter font-semibold text-[15px] leading-[100%] text-TextColor"
+                  for=""
+                  >Telefon raqam</label
+                >
+                <input
+                  class="w-full font-Inter font-normal text-[15px] leading-[100%] text-TextColor border border-[#E1E0E4] outline-none rounded-[40px] px-5 py-3"
+                  type="text"
+                  placeholder="+998 (_) ___ __ __"
+                />
+              </div>
+              <div class="grid gap-5 grid-cols-1 sm:grid-cols-2">
+                <div class="grid">
+                  <label
+                    class="mb-2 font-Inter font-semibold text-[15px] leading-[100%] text-TextColor"
+                    for=""
+                    >Bog‘lanish sanasi</label
+                  >
+                  <input
+                    class="w-full font-Inter font-normal text-[15px] leading-[100%] text-TextColor border border-[#E1E0E4] outline-none rounded-[40px] px-5 py-3"
+                    type="date"
+                    placeholder="Sanani kiriting"
+                  />
+                </div>
+                <div class="grid">
+                  <label
+                    class="mb-2 font-Inter font-semibold text-[15px] leading-[100%] text-TextColor"
+                    for=""
+                    >Bog‘lanish vaqti</label
+                  >
+                  <input
+                    class="w-full font-Inter font-normal text-[15px] leading-[100%] text-TextColor border border-[#E1E0E4] outline-none rounded-[40px] px-5 py-3"
+                    type="time"
+                    placeholder="Vaqtni kiriting"
+                  />
+                </div>
+              </div>
+              <button class="btn w-full mt-10" type="submit">Yuborish</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="partners" id="vakansiya">
+        <div class="container mx-auto py-20 px-5 sm:px-0 text-center">
+          <h2>Bizning hamkorlar</h2>
+          <div class="card mt-10 flex-still gap-10 overflow-hidden">
+            <img src="./imgs/partnersImg1.png" alt="" />
+            <img src="./imgs/partnersImg2.png" alt="" />
+            <img src="./imgs/partnersImg3.png" alt="" />
+            <img src="./imgs/partnersImg4.png" alt="" />
+            <img src="./imgs/partnersImg5.png" alt="" />
+            <img src="./imgs/partnersImg6.png" alt="" />
+            <img src="./imgs/partnersImg7.png" alt="" />
+          </div>
         </div>
       </section>
     </main>
+    <footer class="bg-[#130C32]">
+      <div class="container mx-auto py-10 px-5 sm:px-0 grid grid-cols-1 gap-10 md:grid-cols-3">
+        <div>
+          <div class="logo">
+            <img src="./imgs/logo.png" alt="" />
+          </div>
+          <p class="text-[14px] text-MainColor mt-10">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the
+          </p>
+        </div>
+        <div class="flex-still flex-wrap sm:flex-nowrap">
+            <a class="font-Inter font-semibold text-[16px] leading-[100%] text-MainColor cursor-pointer transition-all duration-500 hover:text-gray-300" href="#about">Biz haqimizda</a>
+            <a class="font-Inter font-semibold text-[16px] leading-[100%] text-MainColor cursor-pointer transition-all duration-500 hover:text-gray-300" href="#services">Xizmatlar</class=></a>
+            <a class="font-Inter font-semibold text-[16px] leading-[100%] text-MainColor cursor-pointer transition-all duration-500 hover:text-gray-300" href="#portfolio">Portfolio</a>
+        </div>
+        <div>
+            <div class="flex gap-3">
+                <div class="icon w-[40px] h-[40px] rounded-full bg-[#443E61] flex justify-center items-center cursor-pointer transition-all duration-500 hover:scale-95">
+                    <i class="text-MainColor fa-regular fa-paper-plane"></i>
+                </div>
+                <div class="icon w-[40px] h-[40px] rounded-full bg-[#443E61] flex justify-center items-center cursor-pointer transition-all duration-500 hover:scale-95">
+                    <i class="text-MainColor fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="icon w-[40px] h-[40px] rounded-full bg-[#443E61] flex justify-center items-center cursor-pointer transition-all duration-500 hover:scale-95">
+                    <i class="text-MainColor fa-brands fa-twitter"></i>
+                </div>
+                <div class="icon w-[40px] h-[40px] rounded-full bg-[#443E61] flex justify-center items-center cursor-pointer transition-all duration-500 hover:scale-95">
+                    <i class="text-MainColor fa-brands fa-instagram"></i>
+                </div>
+                <div class="icon w-[40px] h-[40px] rounded-full bg-[#443E61] flex justify-center items-center cursor-pointer transition-all duration-500 hover:scale-95">
+                    <i class="text-MainColor fa-solid fa-b"></i>
+                </div>
+            </div>
+            <h4 class="font-Inter font-semibold text-[16px] leading-[100%] text-MainColor mt-5">+998 (73) 244 05 35</h4>
+            <p class="text-[14px] text-MainColor mt-5">Farg‘ona shahar Alisher  Navoi ko‘chasi 15 uy mo‘ljal  Asia mehmonhonasi </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

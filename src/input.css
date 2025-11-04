@@ -30,6 +30,6 @@
     @apply font-OpenSans font-semibold text-[34px] leading-[110%] uppercase text-MainColor w-[50%] mb-15 sm:text-[64px];
   }
   h2{
-    @apply font-OpenSans font-bold text-[32px] sm:text-[48px] leading-[100%] text-TextColor mb-5;
+    @apply font-OpenSans font-bold text-[32px] md:text-[48px] leading-[100%] text-TextColor mb-5;
   }
 }
